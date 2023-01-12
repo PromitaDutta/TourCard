@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+     
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tourism-card">
+                            <h1 class="main-heading shadow-sm">Tourism</h1>
+                            <p class="paragraph">Plan your trip</p>
+                            <button class="button mb-4" onclick="display('sectionFavouritePlaces')">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionFavouritePlaces">
+        <div class="favourite-places-bg-container">
+            <div class="container">
+                <div class="row">
+                    <h1 class="favourite-places-heading">Favourite Places</h1>
+                    <div class="col-12">
+                        <div class="favourite-place-card-container" onclick="display('sectionTajMahalDetailedView')">
+                            <div>
+                                <h1 class="favourite-place-card-heading">Taj Mahal</h1>
+                                <p class="favourite-place-card-description">
+                                    If there was just one symbol to represent all of India, it would be
+                                    the Taj Mahal
+                                </p>
+                            </div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png" class="favourite-place-card-image" />
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionGoldenTempleDetailedView')">
+                            <div>
+                                <h1 class="favourite-place-card-heading">Golden Temple</h1>
+                                <p class="favourite-place-card-description">
+                                    Amritsar is world-famous for the beautiful and highly revered Golden
+                                    Temple
+                                </p>
+                            </div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/golden-temple-img.png" class="favourite-place-card-image" />
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionMysorePalaceDetailedView')">
+                            <div>
+                                <h1 class="favourite-place-card-heading">Mysore Palace</h1>
+                                <p class="favourite-place-card-description">
+                                    The Mysore Palace is a historical palace and the royal residence at
+                                    Mysore .
+                                </p>
+                            </div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace-img.png" class="favourite-place-card-image" />
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="favourite-place-card-container d-flex flex-row" onclick="display('sectionVaranasiTempleDetailedView')">
+                            <div>
+                                <h1 class="favourite-place-card-heading">Varanasi Temple</h1>
+                                <p class="favourite-place-card-description">
+                                    Varanasi Temple is most famous Hindu temples dedicated to Lord Shiva
+                                </p>
+                            </div>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi-temple-img.png" class="favourite-place-card-image ml-3" />
+                        </div>
+                    </div>
+                    <button class="btn btn-dark ml-4" onclick="display('sectionHome')">back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionTajMahalDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/49HTIoCccDY?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading shadow">Taj Mahal</h1>
+                    <p class="detailed-view-card-description">
+                        The Taj Mahal is considered to be the greatest architectural
+                        achievement in the whole range of Indo-Islamic architecture. Its
+                        recognised architectonic beauty has a rhythmic combination of solids
+                        and voids, concave and convex and light shadow; such as arches and
+                        domes further increases the aesthetic aspect. Not a piece of
+                        architecture, as other buildings are, but the proud passions of an
+                        emperor’s love wrought in living stones.
+                    </p>
+                </div>
+            </div>
+
+            <button class="btn btn-dark ml-4 mb-3" onclick="display('sectionFavouritePlaces')">
+                back
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <div id="sectionGoldenTempleDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/m701WKQMeYQ?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading shadow">Golden Temple</h1>
+                    <p class="detailed-view-card-description">
+                        The Golden temple is located in the holy city of the Sikhs, Amritsar.
+                        The Golden temple is famous for its full golden dome,
+                        it is one of the most sacred pilgrim spots for Sikhs.
+                        The Mandir is built on a 67-ft square of marble and is a two storied structure.
+                    </p>
+                </div>
+            </div>
+
+            <button class="btn btn-dark ml-4 mb-3" onclick="display('sectionFavouritePlaces')">
+                back
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <div id="sectionMysorePalaceDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l7JaWW7gw0M?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading shadow">Mysore Palace</h1>
+                    <p class="detailed-view-card-description">
+                        The Mysore Palace, also known as Amba Vilas Palace,
+                        is a historical palace and a royal residence (house).
+                        It is located in Mysore, Karnataka. It used to be the official residence
+                        of the Wadiyar dynasty and the seat of the Kingdom of Mysore.
+                        The palace is in the centre of Mysore, and faces the Chamundi Hills eastward.
+                    </p>
+                </div>
+            </div>
+
+            <button class="btn btn-dark ml-4 mb-3" onclick="display('sectionFavouritePlaces')">
+                back
+            </button>
+        </div>
+    </div>
+
+
+
+
+    <div id="sectionVaranasiTempleDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-card-container">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rDsOi3MByCI?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading shadow">Varanasi Temple</h1>
+                    <p class="detailed-view-card-description">
+                        It is the holy shrine of Lord Kashi Vishwanath,
+                        a manifestation of Lord Shiva and was here that Gautam Buddha came to be.
+                        Varanasi is probably one of many few holy cities that enjoys a
+                        revered position among devouts of Hindus, Buddhists and Jains.
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark ml-4 mb-3" onclick="display('sectionFavouritePlaces')">
+                back
+            </button>
+        </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
