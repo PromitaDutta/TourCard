@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.bg-container {
+    background-image: url("https://images.pexels.com/photos/1266831/pexels-photo-1266831.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-1266831.jpg&fm=jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: transparent;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+    margin-top: 12px;
+}
+
+.button {
+    height: 38px;
+    width: 142px;
+    background-color: #25b1cc;
+    color: white;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: green;
+    font-size: 18px;
+}
+
+.main-heading {
+    font-family: "Bree Serif";
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-family: "Sans-Serif";
+    font-size: 28px;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.favourite-places-bg-container {
+    background-image: url("https://wallpapercave.com/wp/wp2649815.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    padding: 24px;
+    overflow-y: scroll;
+}
+
+.favourite-places-heading {
+    color: white;
+    font-size: 32px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.favourite-place-card-description {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #6c6b70;
+    font-weight: 600;
+}
+
+.favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+}
+
+.favourite-place-card-text-container {
+    margin: 15px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-size: 32px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.detailed-view-card-description {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #6c6b70;
+    font-weight: 600;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+.unordered-list {
+    list-style-type: circle;
+}
